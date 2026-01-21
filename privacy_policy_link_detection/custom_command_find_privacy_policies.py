@@ -17,7 +17,7 @@ from openwpm.socket_interface import ClientSocket
 from bs4 import BeautifulSoup, SoupStrainer
 from tranco import Tranco
 import lxml
-import cchardet as chardet
+import charset_normalizer as chardet
 import pathlib
 import requests
 from datetime import datetime
